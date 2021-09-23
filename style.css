@@ -1,0 +1,92 @@
+/*global values*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: rgb(7, 7, 7);
+
+  min-height: 100vh;
+}
+
+#top {
+  width: 90%;
+  height: 5vh;
+  margin: auto;
+}
+#main {
+  width: 90%;
+  height: 90vh;
+  margin: auto;
+  display:flex;
+  /*background-image: url("./bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;*/
+ }
+#header{
+     width: 50%;
+}
+#Db_Entry{
+     width: 50%;
+     padding-top:30px;
+}
+
+
+
+#header {
+  font-size: 10vh;
+  margin: 0;
+  padding: 0;
+}
+#header_version {
+  font-size: 3vh;
+  margin: 0;
+  padding: 0;
+}
+label {
+  font-size: 6vh;
+}
+input {
+  width: 60%;
+  padding: 4px 4px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  background-color: lightgray;
+  font-size: 3vh;
+  border-radius: 8px;
+}
+#album_name {
+  padding-bottom: 10px;
+}
+
+#Db_Button {
+  background-color: lightgray;
+  border: 1px black solid;
+  color: black;
+  */padding: 10px 10px;*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 8px;
+  width: 40%
+}
+
+#Db_Button:hover {
+  background-image: none !important;
+  background-color: lightblue !important;
+}
+#b_code,#band_name,#album_name,#send_db{
+   padding-left:30px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
